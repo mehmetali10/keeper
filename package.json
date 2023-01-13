@@ -1,5 +1,6 @@
 {
   "name": "Keeper-App",
+  "homepage": "http://mehmetali10.github.io/Keeper-App",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -13,13 +14,16 @@
   },
   "devDependencies": {
     "case-sensitive-paths-webpack-plugin": "^2.4.0",
+    "gh-pages": "^4.0.0",
     "typescript": "3.3.3"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": [
     ">0.2%",
