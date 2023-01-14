@@ -14,8 +14,7 @@
   },
   "devDependencies": {
     "case-sensitive-paths-webpack-plugin": "^2.4.0",
-    "gh-pages": "^4.0.0",
-    "typescript": "3.3.3"
+    "gh-pages": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
